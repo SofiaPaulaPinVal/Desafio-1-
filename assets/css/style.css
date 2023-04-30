@@ -1,0 +1,172 @@
+body,
+menu {
+    margin: 0;
+}
+.barra {
+    display: flex;
+    flex-direction: row;
+    background-color: #FFF;
+}
+menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    width: 30%; /* ancho */
+    min-height: auto; /* alto */
+    border: #9f86c0 solid 1px;
+    align-items: center; 
+    justify-content: start;
+    padding: 0px;
+    margin-bottom: 0;
+}
+menu ul {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    /*flex-direction: column;
+     flex-wrap: wrap; */
+    flex-flow: column wrap;
+    background-color: #FFF;
+    padding: 0;
+}
+
+menu li {
+    padding: 0px;
+    list-style: none;
+    width: 100%;   
+    border: #9f86c0 solid 1px;
+}
+.principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    padding: 15px;
+    
+}
+.usuario {
+    display: flex;
+    flex-direction: row;   
+}
+.fotoschats {
+    size-adjust: cover;
+    width: 40%;
+    border-radius: 50%;
+    padding: 5px;
+}
+.estado {
+    padding:10px;
+    align-items: center;
+}
+.text {
+    font-size: 50px;
+}
+.icons { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    text-align: center;
+}
+.nuevochat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    padding: 30px;
+    margin: 0;
+}
+.chat {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #9f86c0;
+    margin: 0;
+    font-size: 20px;
+    color:#FFF; 
+}
+
+.chats {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    padding: 0px;
+    
+}
+.imgs-chat {
+    size-adjust: cover;
+    width: 40%;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+/* ---------------------------------------------- */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #edede9;
+    }
+
+.sec-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    width: 800px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+    padding: 20px;
+
+}
+.manos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+    height: 250px;
+    width: 250px;
+    margin:20px;
+    border-radius: 5%;
+}
+.título {
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    
+}
+.párrafo {
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+    width: 75%;
+    
+}
+
+
+
+
+
+/* ---------------------------------------------- */
